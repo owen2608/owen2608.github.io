@@ -39,7 +39,7 @@
         height: 300px;
         border-radius: 50%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items:center;
         }
         
