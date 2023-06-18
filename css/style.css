@@ -38,7 +38,9 @@
         .Container img{
         height: 300px;
         border-radius: 50%;
+        display: flex;
         justify-content: center;
+        align-items:center;
         }
         
         .Container h2{
