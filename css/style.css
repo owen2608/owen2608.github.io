@@ -66,6 +66,9 @@
             background-image: url(pinkbg.jpg);
             background-repeat: round;
             }
+            #intro{
+                background-color:brown
+            }
             #about{
             background-color: bisque;
             }
