@@ -1,23 +1,25 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $message = $_POST["message"];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  // Retrieve the form data
+  $name = $_POST['demo-name'];
+  $email = $_POST['demo-email'];
+  $category = $_POST['demo-category'];
+  $priority = $_POST['demo-priority'];
+  $copy = isset($_POST['demo-copy']) ? 'Yes' : 'No';
+  $human = isset($_POST['demo-human']) ? 'Yes' : 'No';
+  $message = $_POST['demo-message'];
 
-  // Process and sanitize the form data as needed
-
-  // Send the email
-  $to = "your-email@example.com";
-  $subject = "New message from your website";
-  $body = "Name: $name\nEmail: $email\n\n$message";
+  // Compose the email message
+  $to = 'owen2608@berkeley.edu';  // Replace with your email address
+  $subject = 'New form submission';
+  $body = "Name: $name\nEmail: $email\nCategory: $category\nPriority: $priority\nCopy: $copy\nHuman: $human\nMessage: $message";
   $headers = "From: $email";
 
+  // Send the email
   if (mail($to, $subject, $body, $headers)) {
-    // Email sent successfully
-    echo "Thank you! Your message has been sent.";
+    echo 'Email sent successfully';
   } else {
-    // Failed to send email
-    echo "Oops! An error occurred while sending your message.";
+    echo 'An error occurred. Please try again.';
   }
 }
 ?>
