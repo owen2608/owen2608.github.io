@@ -212,11 +212,11 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1rem;
-		text-transform:lowercase;
 	}
 
 	h4 {
 		font-size: 0.8rem;
+		text-transform: lowercase;
 	}
 
 	h5 {
