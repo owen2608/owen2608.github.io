@@ -695,6 +695,7 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			
 
 		.image.main {
 			display: block;
@@ -705,7 +706,17 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+			.image.profile {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 300px; /* Set the desired height for the container */
+			  }
+			  
+			  .image.profile img {
+				max-width: 100%; /* Limits the image width to the container size */
+				max-height: 100%; /* Limits the image height to the container size */
+			  }
 		@media screen and (max-width: 736px) {
 
 			.image.main {
