@@ -745,8 +745,8 @@ input, select, textarea {
   }
   
   .bullet-list li img {
-	width: 50px; /* Set the desired width for the image */
-	height: 50px; /* Set the desired height for the image */
+	width: 100px; /* Set the desired width for the image */
+	height: autopx; /* Set the desired height for the image */
 	margin-right: 10px; /* Add some spacing between the image and text */
   }
   
