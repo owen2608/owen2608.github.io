@@ -161,10 +161,15 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
+	strong{
 		color: #ffffff;
 		font-weight: 600;
 		font-size: 2.0rem;
+	}
+	b{
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 1.0rem;
 	}
 
 	em, i {
@@ -744,7 +749,7 @@ input, select, textarea {
 	margin-bottom: 10px; /* Add some spacing between each bullet point */
   }
   
-  .bullet-list li img {
+  .bullet-list li .bullet-image {
 	width: 100px; /* Set the desired width for the image */
 	height: autopx; /* Set the desired height for the image */
 	margin-right: 10px; /* Add some spacing between the image and text */
