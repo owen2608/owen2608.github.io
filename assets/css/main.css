@@ -737,7 +737,33 @@ input, select, textarea {
 			}
 
 		}
-
+/* Stuff for Experiences Page */
+.profile-container {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 20px;
+  }
+  
+  .profile-image {
+	width: 150px;
+	margin-right: 20px;
+  }
+  
+  .profile-image img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .profile-details h1,
+  .profile-details h3,
+  .profile-details p {
+	margin: 0;
+  }
+  
+  .profile-bio {
+	line-height: 1.5;
+  }
+  
 /* List */
 .bullet-list {
 	list-style-type: none;
