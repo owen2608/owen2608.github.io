@@ -219,6 +219,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1rem;
 		text-transform:initial;
+		letter-spacing: normal;
 	}
 
 	h4 {
