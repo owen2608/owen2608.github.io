@@ -218,6 +218,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1rem;
+		text-transform:initial;
 	}
 
 	h4 {
@@ -763,7 +764,7 @@ input, select, textarea {
   .profile-bio {
 	line-height: 1.5;
   }
-  
+
 /* List */
 .bullet-list {
 	list-style-type: none;
