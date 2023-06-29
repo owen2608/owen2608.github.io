@@ -141,7 +141,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family:'Times New Roman', Times, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -177,7 +177,7 @@ input, select, textarea {
 	}
 
 	p {
-		font-family: 'Courier New', Courier, monospace;
+		font-family: 'Times New Roman', Times, serif
 		margin: 0 0 2rem 0;
 	}
 
@@ -236,6 +236,27 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	.image-description-container {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .image-container {
+		flex: 1;
+		text-align: center;
+	  }
+	  
+	  .image-container img {
+		max-width: 100%;
+		height: auto;
+	  }
+	  
+	  .description-container {
+		flex: 1;
+		padding: 20px;
+	  }
+	  
+	  
 	@media screen and (max-width: 736px) {
 
 		h1 {
