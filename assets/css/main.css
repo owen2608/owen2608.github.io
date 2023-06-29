@@ -177,6 +177,7 @@ input, select, textarea {
 	}
 
 	p {
+		font-family: 'Courier New', Courier, monospace;
 		margin: 0 0 2rem 0;
 	}
 
